@@ -1,10 +1,10 @@
 {
   "skeletonType": "CohortDiagnosticsStudy",
   "organizationName": "OHDSI",
-  "description": "Cohort diagnostics.",
+  "description": "DrugResistantEpilepsy",
   "version": "v0.1.0",
   "skeletonVersion": "v0.0.1",
-  "createdDate": 19313,
+  "createdDate": 19324,
   "createdBy": "rao@ohdsi.org",
   "cohortDefinitions": [{
     "createdDate": 1668708976.4010000228882,
@@ -1138,13 +1138,13 @@
         }
       }
     },
-    "logicDescription": "Contributor: Mathew Spotnitz\nForum post: https://forums.ohdsi.org/t/phenotype-submission-drug-resistant-epilepsy/17569",
+    "logicDescription": "Status: Pending peer review. \nContributor: Mathew Spotnitz;\nForum post: https://forums.ohdsi.org/t/phenotype-submission-drug-resistant-epilepsy/17569\nLogic: first occurrence of epilepsy in inpatient, of subsequent epilepsy in an outpatient setting after another outpatient epilepsy visit more than 30 days before, or anti-epileptic drug on or after a diagnosis of epilepsy. Limit to persons with at least two different anti epilepsy drug or diagnosis of intractable epilepsy on or after index date.\n",
     "modifiedDate": 1668708976.4010000228882,
     "name": "[P] Drug Resistant Epilepsy",
     "id": 254
   }],
-  "name": "Drug Resistant Epilepsys - an OHDSI network study",
-  "modifiedDate": 19313,
+  "name": "DrugResistantEpilepsy",
+  "modifiedDate": 19324,
   "modifiedBy": "rao@ohdsi.org",
   "id": 1,
   "packageName": "DrugResistantEpilepsy"
