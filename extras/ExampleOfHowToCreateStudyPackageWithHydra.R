@@ -6,8 +6,8 @@ outputFolder <- "d:/temp/output"  # location where you study package will be cre
 
 ########## Please populate the information below #####################
 version <- "v0.1.0"
-name <- "DrugResistantEpilepsy"
-packageName <- "DrugResistantEpilepsy"
+name <- "myocardialInfarction"
+packageName <- "myocardialInfarction"
 skeletonVersion <- "v0.0.1"
 createdBy <- "rao@ohdsi.org"
 createdDate <- Sys.Date() # default
@@ -15,7 +15,7 @@ modifiedBy <- "rao@ohdsi.org"
 modifiedDate <- Sys.Date()
 skeletonType <- "CohortDiagnosticsStudy"
 organizationName <- "OHDSI"
-description <- "DrugResistantEpilepsy"
+description <- "myocardialInfarction"
 
 
 library(magrittr)
@@ -23,7 +23,20 @@ library(magrittr)
 baseUrl <- Sys.getenv("ohdsiAtlasPhenotype")
 # if you have security enabled, please authorize the use - example below
 ROhdsiWebApi::authorizeWebApi(baseUrl, 'db', keyring::key_get("ohdsiAtlasPhenotypeUser"), keyring::key_get("ohdsiAtlasPhenotypePassword"))
-cohortIds <- c(254)
+cohortIds <- c(71,
+               175,
+               177,
+               176,
+               143,
+               158,
+               144,
+               147,
+               148,
+               149,
+               142,
+               145,
+               146
+)
 
 
 

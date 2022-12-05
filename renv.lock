@@ -293,7 +293,7 @@
 		},
 		"SqlRender" : {
 			"Package" : "SqlRender",
-			"Version" : "1.10.0",
+			"Version" : "1.11.0",
 			"Source" : "Repository",
 			"Repository" : "CRAN"
 		},
@@ -473,7 +473,7 @@
 			"RemoteHost" : "api.github.com",
 			"RemoteRepo" : "CohortDiagnostics",
 			"RemoteUsername" : "ohdsi",
-			"RemoteRef" : "drop_tables_old"
+			"RemoteRef" : "v3.1.0"
 		},
 		"OhdsiSharing" : {
 			"Package" : "OhdsiSharing",
